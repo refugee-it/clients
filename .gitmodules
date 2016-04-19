@@ -1,0 +1,6 @@
+[submodule "org.publishing-systems/digital_publishing_workflow_tools"]
+	path = org.publishing-systems/digital_publishing_workflow_tools
+	url = https://github.com/publishing-systems/digital_publishing_workflow_tools.git
+[submodule "org.publishing-systems/automated_digital_publishing"]
+	path = org.publishing-systems/automated_digital_publishing
+	url = https://github.com/publishing-systems/automated_digital_publishing
