@@ -121,7 +121,7 @@ public class langsam_gesprochene_nachrichten_downloader_1
             }
         }
 
-        File settingsFile = new File(programPath + "settings.xml");
+        File settingsFile = new File(args[0]);
 
         try
         {
