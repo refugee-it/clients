@@ -16,7 +16,7 @@
 
 
 
-directories = ./com.dw ./org.publishing-systems ./org.wiktionary
+directories = ./wiktionary_dump_article_extractor_1
 
 
 
