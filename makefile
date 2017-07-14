@@ -16,7 +16,7 @@
 
 
 
-directories = ./com.dw ./org.publishing-systems ./org.wiktionary
+directories = ./com.dw ./org.publishing-systems
 
 
 
