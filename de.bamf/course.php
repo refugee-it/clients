@@ -78,6 +78,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
      "  <head>\n".
      "    <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
      "    <title>Integration Course by BAMF</title>\n".
+     "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n".
      "    <style type=\"text/css\">\n".
      "      body\n".
      "      {\n".
