@@ -1,4 +1,4 @@
-/* Copyright (C) 2016  Stephan Kreutzer
+/* Copyright (C) 2016-2018  Stephan Kreutzer
  *
  * This file is part of langsam_gesprochene_nachrichten_downloader_1.
  *
@@ -56,7 +56,7 @@ public class langsam_gesprochene_nachrichten_downloader_1
 {
     public static void main(String args[])
     {
-        System.out.print("langsam_gesprochene_nachrichten_downloader_1 Copyright (C) 2016 Stephan Kreutzer\n" +
+        System.out.print("langsam_gesprochene_nachrichten_downloader_1 Copyright (C) 2016-2018 Stephan Kreutzer\n" +
                          "This program comes with ABSOLUTELY NO WARRANTY.\n" +
                          "This is free software, and you are welcome to redistribute it\n" +
                          "under certain conditions. See the GNU Affero General Public License 3\n" +
@@ -737,7 +737,11 @@ public class langsam_gesprochene_nachrichten_downloader_1
                                                     new FileOutputStream(textFile),
                                                     "UTF-8"));
 
-                            writer.write(sbDescription.toString());
+                            writer.write(sbDescription.toString().replaceAll("&amp;", "&")
+                                                                 .replaceAll("&lt;", "<")
+                                                                 .replaceAll("&gt;", ">")
+                                                                 .replaceAll("&apos;", "'")
+                                                                 .replaceAll("&quot;", "\""));
 
                             writer.flush();
                             writer.close();
